@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 6rem;
+
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color:beige ;
+    border: 2px solid gray;
+    display: inline-block;
+}
+.o{
+    position: relative;
+}
+.o:after{
+    position: absolute;
+        content: "\1F475";
+        font-size: 100px;
+        line-height: 200px;
+        top:0;
+        bottom:0;
+        left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+.x:after{
+    position: absolute;
+        content: "\1F474";
+        font-size: 100px;
+        line-height: 200px;
+        top:0;
+        bottom:0;
+        left: 0;
+    right: 0;
+}
